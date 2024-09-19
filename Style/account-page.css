@@ -1,0 +1,65 @@
+/* styling account-page */
+.accout-page {
+  padding: 50px 0;
+  background: radial-gradient(#fff, #ffd6d6);
+}
+.form-container {
+  background-color: #fff;
+  width: 300px;
+  height: 400px;
+  box-shadow: 0px 0px 20px 0px rgb(0, 0, 0, 0.1);
+  position: relative;
+  margin: auto;
+  padding: 20px 0;
+  text-align: center;
+  overflow: hidden;
+}
+.form-container span {
+  font-weight: bold;
+  padding: 0 10px;
+  color: #555;
+  width: 100px;
+  cursor: pointer;
+  display: inline-block;
+}
+.form-btn {
+  display: inline-block;
+}
+.form-container form {
+  max-width: 300px;
+  padding: 0 20px;
+  position: absolute;
+  top: 130px;
+  transition: transform 1s;
+}
+form input {
+  width: 100%;
+  height: 30px;
+  padding: 0 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+form .btn {
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  margin: 10px 0;
+}
+#loginForm {
+  left: -300px;
+}
+#regForm {
+  left: 0;
+}
+form a {
+  font-size: 12px;
+}
+#indecator {
+  width: 100px;
+  border: none;
+  height: 3px;
+  background-color: #ff523b;
+  margin-top: 10px;
+  transition: transform 1s;
+  transform: translateX(100px);
+}

@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Products Page</title>
     <!-- link my file of styling -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./Style/style.css" />
+    <link rel="stylesheet" href="./Style/product.css" />
     <!-- Goole Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,18 +28,22 @@
     <div class="container">
       <div class="nav-bar">
         <div class="logo">
-          <img src="./images/logo.png" alt="The store logo" width="125px" />
+          <a href="index.html"
+            ><img src="./images/logo.png" alt="The store logo" width="125px"
+          /></a>
         </div>
         <nav>
           <ul id="MenuItems">
-            <li><a href="">Home</a></li>
-            <li><a href="">Products</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Contact</a></li>
-            <li><a href="">Account</a></li>
+            <li><a href="account.html">Account</a></li>
           </ul>
         </nav>
-        <img src="./images/cart.png" width="30px" height="30px" />
+        <a href="cart.html"
+          ><img src="./images/cart.png" width="30px" height="30px"
+        /></a>
         <img src="./images/menu.png" class="menu-icon" onclick="menuToggle()" />
       </div>
     </div>
